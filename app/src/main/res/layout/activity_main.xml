@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?android:attr/actionBarTheme"
+        app:menu="@menu/appbarmenu"
+        app:popupTheme="@style/PopupStyle"
+        app:title="@string/app_name" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="1dp"
+        app:tabBackground="?attr/colorPrimary"
+        app:tabIndicator="@drawable/custom_tab_indicator"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="auto"
+        app:tabSelectedTextColor="@color/tabSelectedColor"
+        app:tabTextAppearance="@style/NavigationTabTextAppearance"
+        app:tabTextColor="?attr/colorAccent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

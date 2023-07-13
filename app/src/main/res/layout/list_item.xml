@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="?attr/materialCardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="15dp"
+    android:background="@color/md_white_1000"
+    android:minHeight="72dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="0dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/poster_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:transitionName="shared_poster_container">
+
+            <ImageView
+                android:id="@+id/poster"
+                android:layout_width="93dp"
+                android:layout_height="130dp"
+                android:layout_gravity="start"
+                android:background="@color/colorPlaceHolder"
+                android:contentDescription="@string/poster"
+                android:scaleType="centerCrop"
+                android:transitionName="poster_image" />
+
+        </FrameLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_margin"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/text_margin"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/title_place_holder"
+                android:textColor="?attr/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/media_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_margin"
+                android:layout_marginTop="8dp"
+                android:maxLines="1"
+                android:text="@string/tv_episodes_placeholder"
+                android:textColor="?attr/colorAccent" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/text_margin"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/rating_placeholder"
+                android:textColor="?attr/colorAccent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

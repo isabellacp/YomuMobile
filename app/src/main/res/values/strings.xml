@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Yomu</string>
+    <string name="menu_search">Buscar</string>
+    <string name="loading">Carregando</string>
+    <string name="episodes">episódios</string>
+    <string name="status">status</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="discription">Descrição</string>
+    <string name="stats">Estatísticas</string>
+    <string name="number_placeholder_24"># 27</string>
+    <string name="moreinfo">Mais Informações</string>
+    <string name="start_date">Data de início</string>
+    <string name="sep_7_2006">06 de Setembro de 2004</string>
+    <string name="end_date">Data de término</string>
+    <string name="preview">Visualização</string>
+    <string name="play_preview_button">Botão de reproduzir visualização</string>
+    <string name="no_connection">Sem conexão</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="poster">Pôster</string>
+    <string name="title_place_holder">Titulo</string>
+    <string name="tv_episodes_placeholder">Episodios</string>
+    <string name="rating_placeholder">9</string>
+    <string name="search">Buscar</string>
+    <string name="synopsis">Lorem Ipsum</string>
+</resources>

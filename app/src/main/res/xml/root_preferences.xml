@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="General Settings">
+
+        <!-- I am disabling this because all NSFW content is behind authenticated request
+        <SwitchPreferenceCompat
+            app:key="adult"
+            app:title="Show 18+ Content"/>-->
+
+        <com.isabellacp.dev.app.yomu.customview.ThemePreference
+            app:defaultValue="Light"
+            app:entries="@array/theme"
+            app:entryValues="@array/theme"
+            app:key="theme"
+            app:title="Theme"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="About">
+
+        <Preference
+            app:key="version"
+            app:summary="1.0.2"
+            app:title="Version" />
+
+        <Preference
+            app:key="me"
+            app:persistent="false"
+            app:summary="hi I am isabellacp, I am a motivated computer science student with a passion for mobile and web development. I enjoy exploring the latest technologies and staying up to date with industry trends. I am open to internships and remote jobs. Please feel free also to message me"
+            app:title="Me" />
+
+        <Preference
+            app:key="send_feedback"
+            app:title="Send feedback" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Contact Info">
+        <Preference
+            app:key="telegram"
+            app:summary="\@yohan_nes"
+            app:title="Telegram" />
+        <Preference
+            app:key="email"
+            app:summary="isabellacp222ethiopia@gmail.com"
+            app:title="Email" />
+        <Preference
+            app:key="github"
+            app:summary="https://github.com/isabellacpTz"
+            app:title="Github" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

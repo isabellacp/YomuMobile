@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application Colors -->
+    <color name="colorPrimary">#08D1D8</color>
+    <color name="colorBackground">#fcfceb</color>
+
+    <color name="colorPrimaryDark">@color/md_white_1000</color>
+    <color name="fullRippleColor">#C2C2C2</color>
+    <color name="rippleColor">@color/md_black_1000_12</color>
+    <color name="colorAccent">@color/accent</color>
+    <color name="actionModeShadow">@color/md_black_1000_38</color>
+    <color name="tabSelectedColor">@color/md_black_1000_54</color>
+
+    <color name="textColorPrimary">@color/md_black_1000_87</color>
+    <color name="textColorSecondary">@color/md_white_1000_30</color>
+    <color name="elevated_dark_background">#121212</color>
+    <color name="colorPlaceHolder">#D1D0D0</color>
+
+    <!-- Text Colors -->
+    <color name="md_black_1000_87">#DE000000</color>
+    <color name="md_black_1000_54">#8A000000</color>
+    <color name="md_black_1000_38">#61000000</color>
+    <color name="md_black_1000_12">#1F000000</color>
+
+    <color name="md_white_1000">#FFFFFFFF</color>
+    <color name="md_white_1000_85">#dedede</color>
+    <color name="md_white_1000_76">#C2FFFFFF</color>
+    <color name="md_white_1000_54">#8AFFFFFF</color>
+    <color name="md_white_1000_50">#80FFFFFF</color>
+    <color name="md_white_1000_30">#6c757d</color>
+    <color name="md_white_1000_20">#33FFFFFF</color>
+    <color name="md_white_1000_38">#61FFFFFF</color>
+    <color name="md_white_1000_12">#1FFFFFFF</color>
+    <color name="japaneese_background">#4C4C4C</color>
+
+
+    <color name="primary">#101820</color>
+    <color name="accent">#101820</color>
+    <color name="variant">#2E2157</color>
+
+</resources>
